@@ -1,0 +1,19 @@
+{
+  "name": "opps",
+  "description": "",
+  "scripts": {
+    "postdeploy": "setup.py"
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/digideskio/heroku-django-template"
+    }
+  ]
+}
